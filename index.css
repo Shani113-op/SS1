@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer-container{
+    width:100vw;
+    height: 100vh;
+    background-color:aqua;
+}
+.calc-container{
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    min-width: 25vw;
+    min-height: 60vh;
+    background-color:black;
+}
+.calc-items{
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+}
+.calc input{
+    margin: 10px;
+    width: 20vw;
+    max-width:50em;
+}
