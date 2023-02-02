@@ -19,7 +19,6 @@
 }
 .calc-items{
     display: grid;
-    
     grid-template-columns: 5em 5em 5em 5em;
     grid-gap: 10px;
     margin-left: 10px;
@@ -28,9 +27,11 @@
     grid-column: 1/3;
 }
 .calc input{
-    margin: 10px;
+    margin: 15px;
     width: 23vw;
+    height: 100px;
     min-width:max-content;
     max-width:50em;
+    text-align: end;
 }
 
