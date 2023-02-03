@@ -30,21 +30,24 @@
     grid-column: 1/3;
 }
 .calc input{
-    margin: 15px;
+    margin: 10px 16px;
     width: 92%;
     height: 100px;
     text-align: end;
     font-size: large;
+    border-radius: 9px;
 }
 .navbar li{
     display: inline-block;
     margin: 8px 5px;
     padding: 7px;
     font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
     }
 .navbar li a{
     text-decoration: none;
-    color: white;
+    color:lightgray;
     font-size: large;
 }
 .navbar li a:hover{
@@ -54,4 +57,5 @@
 .calc button{
     padding: 0.5em 1em;
     font-size:x-large;
+    border-radius: 9px;
 }
