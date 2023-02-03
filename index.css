@@ -11,7 +11,7 @@
 .calc-container{
     display: grid;
     position: absolute;
-    top: 6%;
+    top: 22%;
     left: 35%;
     min-width: 25vw;
     min-height: 60vh;
@@ -22,9 +22,8 @@
     background-color: rgb(54, 53, 53);
     display: grid;
     grid-template-columns: 5em 5em 5em 5em;
-    grid-gap: 10px;
+    grid-gap: 73px;
     /* margin-left: 0px; */
-    margin: 10px;
 }
 #do{
     grid-column: 1/3;
@@ -33,14 +32,16 @@
     margin: 10px 16px;
     width: 92%;
     height: 100px;
+    min-width:max-content;
+    max-width:50em;
     text-align: end;
     font-size: large;
     border-radius: 9px;
 }
 .navbar li{
     display: inline-block;
-    margin: 8px 5px;
-    padding: 7px;
+    margin: 50px 10px;
+    padding: 10px;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
