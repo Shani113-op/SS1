@@ -45,7 +45,6 @@
 .navbar li a{
     text-decoration: none;
     color: white;
-    list-style: none;
 }
 .navbar li a:hover{
     text-decoration: underline;
