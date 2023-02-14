@@ -23,6 +23,10 @@
     display: grid;
     grid-template-columns: 5em 5em 5em 5em;
     grid-gap: 10px;
+<<<<<<< HEAD
+    margin-left: 0px;
+=======
+>>>>>>> 8533339d7db6a6f09cb4d8c867c7f5238486c3a1
     margin: 10px;
     margin-left: 16px;
 }
