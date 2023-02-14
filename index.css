@@ -51,6 +51,7 @@
     text-decoration: none;
     color:lightgray;
     font-size: large;
+    cursor: pointer;
 }
 .navbar li a:hover{
     text-decoration: underline;
@@ -63,6 +64,7 @@
     border: rgb(121, 21, 21);
     box-shadow: 3px 3px;
     color: aliceblue;
+    cursor: pointer;
 }
 @media screen and (max-width: 414px) {
     .calc-container{
