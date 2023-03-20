@@ -4,6 +4,7 @@ body{
     background-image: url(careerpic1.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
 }
 
 
@@ -27,39 +28,6 @@ form{
     background-attachment: fixed;
     background-position: center; */ 
     background-image: url(loginman.png);
-}
-.navbar{
-    background-color: rgba(76, 175, 80,0.1);
-    /* border-radius: 30px; */
-}
-/* it is used for when color ios overflow and not display */
-.navbar ul{
-   overflow: auto;
-}
-.navbar li{
-    float: left;
-    /* list-style is used for remove bullets like (.) */
-    list-style: none;
-    margin: 13px 5px;
-    
-}
-.navbar li a{
-    padding: 15px 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-}
-.navbar li a:hover{
-    color: red;
-}
-.navbar input{
-    float: right;
-    margin: 23px 25px;
-    border-radius: 10px;
-    width: 350px;
-    height: 30px;
-    border: 5px solid black;
-    font-size: 20px;
 }
 #txt{
     text-align: center;
