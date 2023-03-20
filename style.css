@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image: url(careerpic1.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,9 +8,9 @@ body{
 
 
 .box{
-    margin: 200px 150px;
-    width: 500px;
-    height: 500px;
+    margin: 11vh 10vw;
+    width: 30vw;
+    height: 53vh;
     border: 2px solid rgba(60, 47, 47,0.15);
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     /* border-top-right-radius: 20px;
