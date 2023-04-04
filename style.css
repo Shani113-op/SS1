@@ -2,55 +2,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-}
-body{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(#fff,#78a9a4,#718cb0);
 }
 .navbar{
-    padding: 35px 0px;
+    position:sticky;
+    width: 100%;
+    background-color:antiquewhite;
+    padding: 0 8vw;
+    z-index: 10;
+}
+.nav{
+    width: 100%;
     display: flex;
-    text-align: center;
     justify-content: space-between;
-    background-color: #b3829a;
-    border-radius: 30px;
 }
-.logo{
-    width:120px;
-    cursor: pointer;
-    margin-left: 25px;
- }
-.navbar ul li{
+.Brand-logo{
+    margin: 10px;
+    max-width: 10%;
+    border-radius: 40%;
+    border: 2px solid black;
+    box-shadow: -5px -5px red;
+}
+.searchbar{
+    width:40%;
+    height: 4vh;
     display: flex;
+    align-self: center;
+}
+.searchbar img{
+    padding-left: 10px;
+}
+.navbar .nav .searchbar input{
+    font-size: 1.em;
+    width: 70%;
+    padding: 0 10px; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchbar ::placeholder{
+    color:rgb(177, 158, 134);
+}
+.navbar .nav .searchbar button{
+    width: 30%;
+    font-size: 1.1em;
+    background-color:darkgrey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Links Tab */
+.navigation{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content:center;
+    border-top: 1px solid rgb(190, 190, 151);
+}
+.links{
+    width: 40%;
+    display: flex;   
+    justify-content: space-evenly;
     list-style: none;
-    display: inline-block;
-    margin: 0px 20px;
 }
-.navbar ul li a{
-    margin-left: 20px;
-    text-decoration: none;
+.links a{
+    font-size: large;
     color: black;
-    text-transform: uppercase;
+    text-decoration: none;
 }
-.navbar ul li a:hover{
-    color: #009688;
-    transition: 0.5s;
+.links :hover{
+    opacity: 0.6;
 }
-.navbar ul li a:hover::after{
-width: 100%;
+
+/* Image on Home Page */
+main img{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-size:cover ;
 }
-.navbar ul button{
-margin-right: 10px;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(loginlogo.png);
-background-size: cover;
-background-position: center;
-cursor: pointer;
-}
+
+
+
+
 .btn-box{
 display: inline-flex;
 }
