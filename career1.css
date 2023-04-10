@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Navbar CSS Start */
+.container{
+    width: 100%;
+    padding:1% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+    position: sticky;
+}
+.navleft ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navleft ul li{
+    padding: 8px 10px;
+    list-style: none;
+}
+.navleft ul li a{
+    color: #fff;
+    list-style: none;
+    text-decoration:none ;
+}
+.navright button{
+    background-color:rgba(209, 209, 33, 0.822);
+    /* color: #fff; */
+    padding: 8px;
+    border-radius: 9px;
+    font-size: 16px;
+}
+/* Navbar CSS End */
+
+
+#btn1{
+    background: url(/img/person2.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#btn2{
+    background: url(/img/explore.jpeg) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#btn3{
+    background: url(/img/studyoption.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#btn4{
+    background: url(/img/develop.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#btn5{
+    background: url(/img/setgoal.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#btn6{
+    background: url(/img/sucessstory.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#btn7{
+    grid-column: span 1/4;
+}
+.btns button{
+    border-color:rgb(218, 212, 212);
+    box-shadow: -3px -3px;
+    border-radius: 10px;
+    background-color:rgb(173, 172, 240);
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 120px;
+    margin: 10px;
+    width: 15vw;
+    height: 30vh;
+}
+main{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.contleft{
+    display:grid;
+    width:50%;
+}
+.contright{
+
+}
+.btns{
+    display: grid;
+    grid-template-columns: 15vw 15vw 120px;
+    column-gap: 15px;
+    /* row-gap: 10px; */
+}
+.btns button:hover{
+    scale:1.08;
+}
