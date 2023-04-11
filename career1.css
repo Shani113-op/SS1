@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+/* Background Color */
+body{
+    background:radial-gradient(rgb(24, 216, 241),rgb(11, 97, 227),rgb(24, 2, 61));
+}
+
 /* Navbar CSS Start */
 .container{
     width: 100%;
@@ -70,7 +75,19 @@
     background-position: center;
 }
 #btn7{
-    grid-column: span 1/4;
+    /* width: 90% */
+}
+.test button{
+    width: 90%;
+    background: linear-gradient(to right, #61045f, #aa067b);
+    color: #fff;
+    border-color:rgb(218, 212, 212);
+    border-radius: 10px;
+    margin-left: 4%;
+    padding: 10px;
+    box-shadow: -3px -3px;
+    font-size: larger;
+    font-weight: bold;
 }
 .btns button{
     border-color:rgb(218, 212, 212);
@@ -92,7 +109,7 @@ main{
 }
 .contleft{
     display:grid;
-    width:50%;
+    width:100%;
 }
 .contright{
 
@@ -105,4 +122,31 @@ main{
 }
 .btns button:hover{
     scale:1.08;
+}
+
+/* Footer */
+.foot{
+    margin: 10px;
+    width: 95vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot p{
+    display: flex;
+    justify-content: center;
+}
+ul{
+
+    text-decoration: none;
+    list-style: none;
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+}
+ul a{
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
 }
