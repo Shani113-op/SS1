@@ -1,0 +1,76 @@
+<div class="container">
+    <div class="navleft">
+        <ul class="nav">
+            <li>
+                <a href="/Home.html" class="navlink">Home</a>
+            </li>
+            <li>
+                <a href="/knowmyself.html" class="navlink">Know Myself</a>
+            </li>
+            <li>
+                <a href="/explorecareer.html" class="navlink">Explore Career</a>
+            </li>
+            <li>
+                <a href="/studyoption.html" class="navlink">Study Options</a>
+            </li>
+            <li>
+                <a href="#" class="navlink">Develop myself</a>
+            </li>
+            <li>
+                <a href="/setgoals.html" class="navlink">Set Goals</a>
+            </li>
+            <li>
+                <a href="/successstory.html" class="navlink">Success Story</a>
+            </li>
+        </ul>
+    </div>
+    <div class="navright">
+        <button onclick="location.href='career1.html'">Sign Out</button>
+    </div>
+</div>
+
+<style>
+    /* Navbar CSS Start */
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 100%;
+    padding:1% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+}
+.navleft ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navleft ul li{
+    padding: 8px 10px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.navlink{
+    color: rgba(255,255,255,0.70);
+    list-style: none;
+    text-decoration:none;
+}
+.active{
+    color: #fff;
+}
+.navright button{
+    background-color:rgba(209, 209, 33, 0.822);
+    /* color: #fff; */
+    padding: 8px;
+    border-radius: 9px;
+    font-size: 16px;
+}
+/* Navbar CSS End */
+</style>
+
+<script src="active.js"></script>

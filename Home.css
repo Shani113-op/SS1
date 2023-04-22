@@ -10,39 +10,6 @@ body{
     background:radial-gradient(rgb(24, 216, 241),rgb(11, 97, 227),rgb(24, 2, 61));
 }
 
-/* Navbar CSS Start */
-.container{
-    width: 100%;
-    padding:1% 10%;
-    display: flex;
-    justify-content: space-between;
-    background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
-    position: sticky;
-}
-.navleft ul{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.navleft ul li{
-    padding: 8px 10px;
-    list-style: none;
-}
-.navleft ul li a{
-    color: #fff;
-    list-style: none;
-    text-decoration:none ;
-}
-.navright button{
-    background-color:rgba(209, 209, 33, 0.822);
-    /* color: #fff; */
-    padding: 8px;
-    border-radius: 9px;
-    font-size: 16px;
-}
-/* Navbar CSS End */
-
 /* Left Container */
 .contleft{
     display:grid;
@@ -52,37 +19,30 @@ body{
     display: grid;
     grid-template-columns: 15vw 15vw 120px;
     column-gap: 15px;
-    /* row-gap: 10px; */
 }
 #btn1{
-    background: url(/img/person2.png) no-repeat;
+    background: url(/img/person2.png) no-repeat center;
     background-size:cover;
-    background-position: center;
 }
 #btn2{
-    background: url(/img/explore.jpeg) no-repeat;
+    background: url(/img/explore.jpeg) no-repeat center;
     background-size:cover;
-    background-position: center;
 }
 #btn3{
-    background: url(/img/studyoption.png) no-repeat;
+    background: url(/img/studyoption.png) no-repeat center;
     background-size:cover;
-    background-position: center;
 }
 #btn4{
-    background: url(/img/develop.png) no-repeat;
+    background: url(/img/develop.png) no-repeat center;
     background-size:cover;
-    background-position: center;
 }
 #btn5{
-    background: url(/img/setgoal.jpg) no-repeat;
+    background: url(/img/setgoal.jpg) no-repeat center;
     background-size:cover;
-    background-position: center;
 }
 #btn6{
-    background: url(/img/sucessstory.png) no-repeat;
+    background: url(/img/sucessstory.png) no-repeat center;
     background-size:cover;
-    background-position: center;
 }
 #btn7{
     /* width: 90% */
@@ -119,23 +79,25 @@ body{
 main{
     display:grid;
     grid-template-columns: 50% 50%;
-    padding-bottom: 20px;
-    border-bottom: 1px solid black;
 }
 
 /* Right Container */
 .contright{
-    width: 100%;
-    height: 100%;
+    margin-top: 10px;
+    width: 93%;
+    height: 94%;
     padding: 0 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(https://source.unsplash.com/random/500×500/?dark) no-repeat;
+    background-size: cover;
 }
 .quoteContainer{
     /* width: 100%;
     height: 40%; */
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,47 +106,19 @@ main{
     color: white;
     border: 10px solid white;
     border-radius: 50px;
-    animation: circlemove 3s ease-in infinite;
-}
-@keyframes circlemove {
-    0%{border-left: #aa067b;}
-    25%{border-top: #aa067b;}
-    50%{border-right: #aa067b;}
-    100%{border-bottom: #aa067b;}
 }
 #quote{
+    color: white;
     padding: 20px;
-    font-size:xx-large;
+    font-size:2.4rem;
     font-family: 'Great Vibes', cursive;
     font-family: 'Dancing Script', cursive;
 }
 #author{
+    width: 70%;
+    color: white;
     margin-bottom: 15px;
     font-family: 'Courgette', cursive;
-}
-/* Footer */
-.foot{
-    margin: 10px;
-    width: 95vw;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.foot p{
-    display: flex;
-    justify-content: center;
-}
-ul{
-
-    text-decoration: none;
-    list-style: none;
-    /* color: #fff; */
-    display: flex;
-    justify-content: center;
-}
-ul a{
-    margin: 10px;
-    text-decoration: none;
-    color: #fff;
+    font-size:1.2rem;
+    text-align: end;
 }
